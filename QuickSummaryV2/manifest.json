@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "QuickSummaryV2",
+  "version": "1.1",
+  "description": "A browser extension that summarizes web articles using NLP.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://localhost:5000/"
+  ],
+  "options_ui": {
+    "page": "settings.html",
+    "open_in_tab": true
+  }
+}
